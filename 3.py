@@ -6,7 +6,7 @@ def sum(num):
 		num //= 10
 	return s
 
-#sum(int(input("x : ")))
+#print(sum(int(input("x : "))))
 for i in range(0,3):
 	x = int(input("x : "))
 	if(sum(x) % 2 == 0):
